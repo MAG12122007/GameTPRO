@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1100" width="1200" height="1100" role="img" aria-label="FNAF 1 camera map">
+  <defs>
+    <style>
+      .room { fill: rgba(20, 60, 110, 0.35); stroke: #4fc3f7; stroke-width: 2.5; }
+      .office { fill: rgba(140, 30, 30, 0.35); stroke: #ff5252; stroke-width: 3; }
+      .name { fill: #dff4ff; font-family: 'Consolas','Courier New',monospace; font-size: 15px; font-weight: bold; text-anchor: middle; letter-spacing: 1.5px; }
+      .name-sm { font-size: 11px; letter-spacing: 1px; }
+      .name-office { fill: #ffb3b3; font-family: 'Consolas',monospace; font-size: 18px; font-weight: bold; text-anchor: middle; letter-spacing: 3px; }
+      .office-note { fill: #ff9c9c; font-family: 'Consolas',monospace; font-size: 11px; text-anchor: middle; letter-spacing: 2px; }
+      .pill { fill: rgba(0,0,0,0.82); stroke: #4fc3f7; stroke-width: 1.3; }
+      .cam-text { fill: #4fc3f7; font-family: 'Consolas',monospace; font-size: 12px; font-weight: bold; text-anchor: middle; }
+      .led { fill: #ff3b3b; }
+      .title { fill: #4fc3f7; font-family: 'Consolas',monospace; font-size: 18px; font-weight: bold; text-anchor: middle; letter-spacing: 3px; }
+      .legend { fill: #4fc3f7; font-family: 'Consolas',monospace; font-size: 11px; letter-spacing: 1px; }
+      .name,.name-sm,.name-office,.office-note,.cam-text,.title,.legend {
+        paint-order: stroke fill; stroke: #000; stroke-width: 2.5px;
+        stroke-linejoin: round; stroke-linecap: round;
+      }
+    </style>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <text x="600" y="25" class="title">CAMERA MAP</text>
+
+  <!-- CAM 5 — Backstage -->
+  <g>
+    <rect x="60" y="40" width="320" height="220" rx="10" class="room" filter="url(#glow)"/>
+    <rect x="68" y="48" width="72" height="22" rx="4" class="pill"/>
+    <circle cx="82" cy="59" r="3" class="led"/>
+    <text x="114" y="64" class="cam-text">CAM 5</text>
+    <text x="220" y="160" class="name">BACKSTAGE</text>
+  </g>
+
+  <!-- CAM 1A — Show Stage -->
+  <g>
+    <rect x="380" y="40" width="400" height="220" rx="10" class="room" filter="url(#glow)"/>
+    <rect x="388" y="48" width="72" height="22" rx="4" class="pill"/>
+    <circle cx="402" cy="59" r="3" class="led"/>
+    <text x="434" y="64" class="cam-text">CAM 1A</text>
+    <text x="580" y="160" class="name">SHOW STAGE</text>
+  </g>
+
+  <!-- CAM 7 — Restrooms -->
+  <g>
+    <rect x="780" y="40" width="240" height="200" rx="10" class="room" filter="url(#glow)"/>
+    <rect x="788" y="48" width="72" height="22" rx="4" class="pill"/>
+    <circle cx="802" cy="59" r="3" class="led"/>
+    <text x="834" y="64" class="cam-text">CAM 7</text>
+    <text x="900" y="150" class="name">RESTROOMS</text>
+  </g>
+
+  <!-- CAM 6 — Kitchen -->
+  <g>
+    <rect x="1040" y="40" width="140" height="340" rx="10" class="room" filter="url(#glow)"/>
+    <rect x="1048" y="48" width="72" height="22" rx="4" class="pill"/>
+    <circle cx="1062" cy="59" r="3" class="led"/>
+    <text x="1094" y="64" class="cam-text">CAM 6</text>
+    <text x="1110" y="220" class="name">KITCHEN</text>
+  </g>
+
+  <!-- CAM 1C — Pirate Cove -->
+  <g>
+    <rect x="60" y="300" width="320" height="260" rx="10" class="room" filter="url(#glow)"/>
+    <rect x="68" y="308" width="72" height="22" rx="4" class="pill"/>
+    <circle cx="82" cy="319" r="3" class="led"/>
+    <text x="114" y="324" class="cam-text">CAM 1C</text>
+    <text x="220" y="440" class="name">PIRATE COVE</text>
+  </g>
+
+  <!-- CAM 1B — Dining Area -->
+  <g>
+    <rect x="380" y="300" width="400" height="280" rx="10" class="room" filter="url(#glow)"/>
+    <rect x="388" y="308" width="72" height="22" rx="4" class="pill"/>
+    <circle cx="402" cy="319" r="3" class="led"/>
+    <text x="434" y="324" class="cam-text">CAM 1B</text>
+    <text x="580" y="450" class="name">DINING AREA</text>
+  </g>
+
+  <!-- CAM 3 — Supply Closet -->
+  <g>
+    <rect x="240" y="700" width="140" height="180" rx="10" class="room" filter="url(#glow)"/>
+    <rect x="248" y="708" width="72" height="22" rx="4" class="pill"/>
+    <circle cx="262" cy="719" r="3" class="led"/>
+    <text x="294" y="724" class="cam-text">CAM 3</text>
+    <text x="310" y="790" class="name name-sm">SUPPLY</text>
+    <text x="310" y="806" class="name name-sm">CLOSET</text>
+  </g>
+
+  <!-- CAM 2A — West Hall -->
+  <g>
+    <rect x="380" y="580" width="100" height="340" rx="10" class="room" filter="url(#glow)"/>
+    <rect x="388" y="588" width="72" height="22" rx="4" class="pill"/>
+    <circle cx="402" cy="599" r="3" class="led"/>
+    <text x="434" y="604" class="cam-text">CAM 2A</text>
+    <text x="430" y="760" class="name name-sm">WEST</text>
+    <text x="430" y="778" class="name name-sm">HALL</text>
+  </g>
+
+  <!-- CAM 2B — W. Hall Corner -->
+  <g>
+    <rect x="380" y="920" width="100" height="120" rx="10" class="room" filter="url(#glow)"/>
+    <rect x="388" y="928" width="72" height="22" rx="4" class="pill"/>
+    <circle cx="402" cy="939" r="3" class="led"/>
+    <text x="434" y="944" class="cam-text">CAM 2B</text>
+    <text x="430" y="985" class="name name-sm">W. HALL</text>
+    <text x="430" y="1003" class="name name-sm">CORNER</text>
+  </g>
+
+  <!-- OFFICE (no camera) -->
+  <g>
+    <rect x="480" y="920" width="200" height="120" rx="10" class="office" filter="url(#glow)"/>
+    <text x="580" y="975" class="name-office">OFFICE</text>
+    <text x="580" y="1005" class="office-note">NO CAMERA</text>
+  </g>
+
+  <!-- CAM 4B — E. Hall Corner -->
+  <g>
+    <rect x="680" y="920" width="100" height="120" rx="10" class="room" filter="url(#glow)"/>
+    <rect x="688" y="928" width="72" height="22" rx="4" class="pill"/>
+    <circle cx="702" cy="939" r="3" class="led"/>
+    <text x="734" y="944" class="cam-text">CAM 4B</text>
+    <text x="730" y="985" class="name name-sm">E. HALL</text>
+    <text x="730" y="1003" class="name name-sm">CORNER</text>
+  </g>
+
+  <!-- CAM 4A — East Hall -->
+  <g>
+    <rect x="680" y="580" width="100" height="340" rx="10" class="room" filter="url(#glow)"/>
+    <rect x="688" y="588" width="72" height="22" rx="4" class="pill"/>
+    <circle cx="702" cy="599" r="3" class="led"/>
+    <text x="734" y="604" class="cam-text">CAM 4A</text>
+    <text x="730" y="760" class="name name-sm">EAST</text>
+    <text x="730" y="778" class="name name-sm">HALL</text>
+  </g>
+
+  <!-- Legend -->
+  <circle cx="65" cy="1078" r="4" class="led"/>
+  <text x="78" y="1082" class="legend">ACTIVE CAMERA</text>
+  <text x="1135" y="1082" class="legend" text-anchor="end">FNAF 1 — FLOOR PLAN</text>
+</svg>
