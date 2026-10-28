@@ -2,11 +2,11 @@
 
 <!-- TO DO: Дописать Readme.md -->
 
-Создание 2D игры с элементами 3D. Вдохновение взято от инди игры FNAF разработчика Скотт Коутона. 
+Создание 2D игры с элементами 3D. Вдохновение взято от инди игры FNAF разработчика Скотт Коутона.
 
 ## Основные этапы разработки игры
 
-<table>
+<table >
   <tr>
     <td align = "center">Этап</td>
     <td>Пояснение</td>
@@ -15,7 +15,7 @@
   <tr>
     <td>1. Разработка локаций и идеи</td>
     <td style="white-space: normal; word-wrap: break-word;"> Придумывание и разработка локаций, персонажей, а так же внешнего вида игры. Её дизайн и стилистику </td>
-    <td> 
+    <td>
         Murakis <br>
         Aslanchik-lev <br>
         Gunther-lev
@@ -24,7 +24,7 @@
   <tr>
     <td>2. Планировка выполнения задач</td>
     <td> Планировка графиков выполнения своих частей, разбиение этапов на подзадачи </td>
-    <td> 
+    <td>
         Murakis <br>
         Aslanchik-lev <br>
         Gunther-lev
@@ -48,7 +48,7 @@
   <tr>
     <td>6. Debugging</td>
     <td> Отладка кода и проверка на возможность его оптимизировать </td>
-    <td> 
+    <td>
         Murakis <br>
         Aslanchik-lev <br>
         Gunther-lev
@@ -57,7 +57,7 @@
   <tr>
     <td>7. Betta testing</td>
     <td> Выпуск betta версии игры и тестирование её </td>
-    <td> 
+    <td>
         Murakis <br>
         Aslanchik-lev <br>
         Gunther-lev <br>
@@ -71,4 +71,14 @@
   </tr>
 </table>
 
+## Используемые программы и языки программирования
 
+<table>
+  <tr>
+    <td> <img src="https://github.com/devicons/devicon/blob/master/icons/unity/unity-original.svg" title="Unity" alt="Unity" width="40" height="40"/>&nbsp; </td>
+    <td> <img src="https://github.com/devicons/devicon/blob/master/icons/visualstudio/visualstudio-original-wordmark.svg" title="Visualstudio" alt="VisualStudio" width="40" height="40"/>&nbsp; </td>
+    <td> <img src="https://github.com/devicons/devicon/blob/master/icons/blender/blender-original-wordmark.svg" title="Csharp" alt="Csharp" width="40" height="40"/>&nbsp; </td>
+    <td> <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/> </td>
+    <td> <img src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-original.svg" title="Csharp" alt="Csharp" width="40" height="40"/>&nbsp; </td>
+  </tr>
+</table>
